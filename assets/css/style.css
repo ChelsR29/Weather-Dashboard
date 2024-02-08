@@ -1,0 +1,104 @@
+/* Apply margin to the entire HTML document */
+html {
+    margin: 5px;
+}
+
+/* Display rows as inline-flex to align elements horizontally */
+.row {
+    display: inline-flex;
+}
+
+/* Styling for the main heading */
+h1 {
+    margin: auto;
+    background-image: linear-gradient(270deg, #001dbe, #66bbff);
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+}
+
+/* Styling for the search form */
+form {
+    display: inline-grid;
+    width: 250px;
+}
+
+/* Styling for input field */
+input {
+    height: 30px;
+}
+
+/* Styling for search button */
+button {
+    margin-top: 15px;
+    height: 30px;
+    background-color: #66bbff;
+    border-radius: 2px;
+    border: 0px;
+    color: white;
+}
+
+/* Styling for search history list */
+ul {
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 20px;
+    border-top-style: solid;
+}
+
+/* Styling for list items */
+li {
+    background-color: #ccc; 
+    color: black;
+    border: none; 
+    border-radius: 5px;
+    padding: 8px 20px; 
+    margin-bottom: 15px;
+    cursor: pointer; 
+    list-style-type: none;
+}
+
+/* Styling for weather information section */
+.weather-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for weather info headings */
+.weather-info h2 {
+    margin-right: 10px;
+    margin-right: 10px;
+    font-size: xx-large;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* Styling for today's weather container */
+.today-container {
+    border-style: solid;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Styling for forecast container */
+.forecast-container {
+    margin: 20px;
+}
+
+/* Styling for subheadings */
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+/* Styling for forecast items */
+.forecast-item {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+    color: white;
+    background: lightslategray;
+    font-size: medium;
+}

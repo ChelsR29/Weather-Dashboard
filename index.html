@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define character set for the document -->
+    <meta charset="UTF-8">
+    <!-- Set viewport for responsiveness on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Weather Dashboard</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Title of the webpage displayed in the header -->
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar for search functionality -->
+            <aside class="col-lg-3">
+                <!-- Subheading for search section -->
+                <h2>Search for a City:</h2>
+                <!-- Form for inputting city name to search -->
+                <form>
+                    <!-- Input field for city search -->
+                    <input class="form-control" type="text" id="search-value" />
+                    <!-- Button to trigger the city search -->
+                    <button class="btn btn-primary" id="search-button">Search</button>
+                </form>
+                <!-- List to display search history -->
+                <ul class="history-list"></ul>
+            </aside>
+
+            <!-- Main section for displaying weather information -->
+            <main class="col-lg-9">
+                <!-- Container for today's weather information -->
+                <div id="today" class="today-container" style="display: none;"></div>
+                <!-- Container for forecast weather information -->
+                <div id="forecast" class="forecast-container"></div>
+            </main>
+            
+        </div>
+    </div>
+
+    <!-- Script tag to include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Script tag to include custom JavaScript -->
+    <script src="assets/js/script.js"></script>    
+</body>
+</html>
